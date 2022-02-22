@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none  ;
+    color: #000;
+}
+/* h1 no centro */
+header{
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cc7d66;
+}
+
+header h1{
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+/*  main */
+main{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#cc7d66, #28D1B0);
+
+    display: flex;
+    justify-content: center;
+
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+main form{
+    margin-top: 5%;
+    width: 45%;
+    height: 58vh;
+    background-color: #80A38D;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.24) ;
+    border-radius: 18px;
+    padding: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .inputs-container{
+    margin-top: 10%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .inputs-container input{
+    width: 90%;
+    height: 45px;
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    cursor: pointer;
+
+    font-size: 16px;
+    color: #cc7d66;
+
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form .inputs-container input:hover{
+   cursor: pointer;
+   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+main form .password-container{
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .password-container i{
+    position: absolute;
+    right: 12%;
+    top: 28%;
+    color: #777;
+    cursor: pointer;
+}
+
+main form .password-container #eye{
+    display: none;
+}
+
+/* section 2 */
+main form .password-infos{
+    width: 90%;
+    margin-top: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main form .password-infos a{
+    transition: 0.2s ease-in-out;
+}
+
+main form .password-infos a:hover{
+    color: aliceblue;
+    font-weight: 600;
+}
+
+main form button{
+    background-color: #cc7d66;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin-top: 10%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-weight: 600;
+    padding: 2%;
+    color: aliceblue;
+}
+
+main form button:hover{
+    background: aliceblue;
+    color: #cc7d66;
+}
+
+/* section 3 */
+main form .links-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+/*  links - google - facebook - linkedin   */
+main form .links-container span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* onde esta englobando os icones  */
+main form .links-container aside{
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main form .links-container aside i{
+    font-size: 1.6rem;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main form .links-container aside .fa-google{
+    color: #E94136;
+}
+
+main form .links-container aside .fa-google:hover {
+    background:#E94136;
+    color: aliceblue;
+}
+
+main form .links-container aside .fa-facebook-f{
+    color: #3A589E;
+}
+
+main form .links-container aside .fa-facebook-f:hover {
+    background-color: #3A589E;
+    color: aliceblue;
+}
+
+
+main form .links-container aside .fa-linkedin-in{
+    color: #0A66C2;
+}
+
+main form .links-container aside .fa-linkedin-in:hover {
+    background-color: #0A66C2;
+    color: aliceblue;
+}
+
+/* footer */
+main form footer{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form footer hr{
+    width: 100%;
+    height: 3px;
+    background: #fff;
+}
+
+main form footer span{
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 5%;
+}
+
+main form footer a{
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+main form footer a:hover{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
